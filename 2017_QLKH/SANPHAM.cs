@@ -272,6 +272,7 @@ namespace _2017_QLKH
                 groupBox_DSSP.Text = "Kết Quả Tìm Kiếm";
 
             }
+            // tim kiem theo san pham
         }
 
         private void txb_timkiem_Leave(object sender, EventArgs e)
@@ -288,6 +289,7 @@ namespace _2017_QLKH
             {
                 txb_timkiem.Text = "";
             }
+            //tim kiem 
         }
 
         private void bt_prev_Click(object sender, EventArgs e)

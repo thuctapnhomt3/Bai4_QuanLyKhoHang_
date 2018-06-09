@@ -110,28 +110,28 @@ namespace _2017_QLKH
 
         private void bt_them_Click(object sender, EventArgs e)
         {
-            //Enabletbx();
-            //Disablebtn();
-            //key = 1;
+            Enabletbx();
+            Disablebtn();
+            key = 1;
         }
 
         private void bt_Sua_Click(object sender, EventArgs e)
         {
-            //Enabletbx();
-            //Disablebtn();
-            //tbx_MaNV.Enabled = false;
-            //tbx_TDN.Enabled = false;
-            //key = 2;
+            Enabletbx();
+            Disablebtn();
+            tbx_MaNV.Enabled = false;
+            tbx_TDN.Enabled = false;
+            key = 2;
         }
 
         private void bt_xoa_Click(object sender, EventArgs e)
         {
-            //Enabletbx();
-            //Disablebtn();
-            //tbx_MaNV.Enabled = false;
-            //tbx_QuyenHan.Enabled = false;
-            //tbx_MK.Enabled = false;
-            //key = 3;
+            Enabletbx();
+            Disablebtn();
+            tbx_MaNV.Enabled = false;
+            tbx_QuyenHan.Enabled = false;
+            tbx_MK.Enabled = false;
+            key = 3;
         }
         private void bt_timkiem_Click(object sender, EventArgs e)
         {

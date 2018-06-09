@@ -201,7 +201,7 @@ namespace _2017_QLKH
                         acc.THEM_DANHMUC(tbx_madm.Text, tbx_tendm.Text, tbx_ghichu.Text, MAKHO);
                         DanhMucSP_Load(sender, e);
                         MessageBox.Show("Thêm THành Công Danh Mục!", "Thông Báo");
-                        //lb_thongbao.Text = "Thêm Thành Công";
+                        lb_thongbao.Text = "Thêm Thành Công";
                         cleartext();
                         tbx_tendm.Focus();
                     }
@@ -223,7 +223,7 @@ namespace _2017_QLKH
                     acc.SUA_DANHMUC(tbx_madm.Text, tbx_tendm.Text, tbx_ghichu.Text, MAKHO);
                     DanhMucSP_Load(sender, e);
                     cleartext();
-                    //lb_thongbao.Text = "Sửa Thành Công";
+                    lb_thongbao.Text = "Sửa Thành Công";
 
                 }
             }
@@ -243,7 +243,7 @@ namespace _2017_QLKH
                         acc.XOA_DANHMUC("UPDATE SANPHAM SET MADANHMUC=NULL WHERE MADANHMUC='" + tbx_madm.Text + "'");
                         acc.XOA_DANHMUC(tbx_madm.Text);
                         DanhMucSP_Load(sender, e);
-                        //lb_thongbao.Text = "Xóa Thành Công";
+                        lb_thongbao.Text = "Xóa Thành Công";
                         cleartext();
                     }
                 }
@@ -252,9 +252,9 @@ namespace _2017_QLKH
 
         private void button1_Click(object sender, EventArgs e)
         {
-            //bt_them.Enabled = true; bt_xoa.Enabled = false; btn_ghinhan.Enabled = false; bt_chophepsua.Enabled = false;
-            //cleartext();
-            //Enable();
+            bt_them.Enabled = true; bt_xoa.Enabled = false; btn_ghinhan.Enabled = false; bt_chophepsua.Enabled = false;
+            cleartext();
+            Enable();
             DanhMucSP_Load(sender, e);
         }
 

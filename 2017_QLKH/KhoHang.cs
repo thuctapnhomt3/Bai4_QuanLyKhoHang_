@@ -198,7 +198,7 @@ namespace _2017_QLKH
                     acc.SUA_KHOHANG(tbx_makho.Text, tbx_tenkho.Text, Convert.ToInt32(tbx_tongdmsp.Value), tbx_ghichu.Text);
                     KhoHang_Load(sender, e);
                     clearText();
-                    //bt_them.Enabled = true; bt_xoa.Enabled = false;
+                    bt_them.Enabled = true; bt_xoa.Enabled = false;
                 }
             }
            

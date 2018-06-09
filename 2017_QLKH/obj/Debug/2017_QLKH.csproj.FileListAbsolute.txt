@@ -698,3 +698,6 @@ C:\Users\buing\Desktop\Thực tập nhóm\Bai4_QuanLyKhoHang\2017_QLKH\obj\Debug
 C:\Users\buing\Desktop\y\2017_QLKH\bin\Debug\2017_QLKH.exe.config
 C:\Users\buing\Desktop\y\2017_QLKH\obj\Debug\2017_QLKH.exe
 C:\Users\buing\Desktop\y\2017_QLKH\obj\Debug\2017_QLKH.pdb
+D:\2018\TTN\Bai4_QuanLyKhoHang_\2017_QLKH\bin\Debug\2017_QLKH.exe.config
+D:\2018\TTN\Bai4_QuanLyKhoHang_\2017_QLKH\obj\Debug\2017_QLKH.exe
+D:\2018\TTN\Bai4_QuanLyKhoHang_\2017_QLKH\obj\Debug\2017_QLKH.pdb

@@ -58,10 +58,10 @@ namespace _2017_QLKH
                 DataSet ds = new DataSet();
                 SqlDataAdapter sda = new SqlDataAdapter(cmd);
                 sda.Fill(ds);
-                //ReportParameter tungay = new ReportParameter("Tungay", TuNgay);
-                //ReportParameter denngay = new ReportParameter("Denngay", DenNgay);
-                //ReportParameter tu = new ReportParameter("Tu", "Từ");
-                //ReportParameter den = new ReportParameter("Den", "Đến");
+                ReportParameter tungay = new ReportParameter("Tungay", TuNgay);
+                ReportParameter denngay = new ReportParameter("Denngay", DenNgay);
+                ReportParameter tu = new ReportParameter("Tu", "Từ");
+                ReportParameter den = new ReportParameter("Den", "Đến");
                 rpv_baocao.ProcessingMode = ProcessingMode.Local;
                 rpv_baocao.LocalReport.ReportPath = "BaoCaoNhap.rdlc";
                 if (ds.Tables[0].Rows.Count > 0)
@@ -71,10 +71,10 @@ namespace _2017_QLKH
                     rds.Value = ds.Tables[0];
                     rpv_baocao.LocalReport.DataSources.Clear();
                     rpv_baocao.LocalReport.DataSources.Add(rds);
-                    //rpv_baocao.LocalReport.SetParameters(new ReportParameter[] { tu });
-                    //rpv_baocao.LocalReport.SetParameters(new ReportParameter[] { den });
-                    //rpv_baocao.LocalReport.SetParameters(new ReportParameter[] { tungay });
-                    //rpv_baocao.LocalReport.SetParameters(new ReportParameter[] { denngay });
+                    rpv_baocao.LocalReport.SetParameters(new ReportParameter[] { tu });
+                    rpv_baocao.LocalReport.SetParameters(new ReportParameter[] { den });
+                    rpv_baocao.LocalReport.SetParameters(new ReportParameter[] { tungay });
+                    rpv_baocao.LocalReport.SetParameters(new ReportParameter[] { denngay });
                     rpv_baocao.RefreshReport();
                 }
                 else

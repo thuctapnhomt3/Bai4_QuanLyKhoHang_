@@ -217,8 +217,8 @@ namespace _2017_QLKH
                         //acc.Custom_ByQuery("UPDATE PHIEUNHAPKHO SET MAKHO=NULL WHERE MAKHO='" + this.tbx_makho.Text + "'");
                         //acc.Custom_ByQuery("UPDATE PHIEUXUAT SET MAKHO=NULL WHERE MAKHO='" + this.tbx_makho.Text + "'");
                         //acc.Custom_ByQuery("UPDATE BOPHAN SET MAKHO=NULL WHERE MAKHO='" + this.tbx_makho.Text + "'");
-                        //acc.Custom_ByQuery("UPDATE BAOCAOTHONGKE SET MAKHO=NULL WHERE MAKHO='" + this.tbx_makho.Text + "'");                    
-                        acc.XOA_KHOHANG(tbx_makho.Text);
+                        //acc.Custom_ByQuery("UPDATE BAOCAOTHONGKE SET MAKHO=NULL WHERE MAKHO='" + this.tbx_makho.Text + "'");
+                        //acc.XOA_KHOHANG(tbx_makho.Text);
                         KhoHang_Load(sender, e);
                         clearText();
                     }
@@ -228,7 +228,7 @@ namespace _2017_QLKH
 
         private void button1_Click_1(object sender, EventArgs e)
         {
-            //bt_them.Enabled = true; btn_chophepsua.Enabled = false;
+            bt_them.Enabled = true; btn_chophepsua.Enabled = false;
             KhoHang_Load(sender, e);
         }
 
